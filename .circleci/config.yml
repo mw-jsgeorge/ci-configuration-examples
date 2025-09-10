@@ -25,6 +25,8 @@ jobs:
       - matlab/install:
           products: >
             Simulink
+            Simulink_Test 
+            Parallel_Computing_Toolbox
           cache: true
           release: R2025a
       - matlab/run-command:
