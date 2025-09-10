@@ -30,7 +30,7 @@ jobs:
           cache: true
           release: R2025a
       - matlab/run-command:
-          command: version
+          command: ver
 workflows:
   test-caching-cross-platform:
     jobs:
